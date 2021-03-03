@@ -1,34 +1,50 @@
 $spaceMap: (
-  xxxs: 4px,
-  xxs: 8px,
-  xs: 12px,
-  s: 16px,
-  m: 24px,
-  l: 32px,
-  xl: 48px,
-  xxl: 72px,
-  xxxl: 96px,
-  xxxxl: 120px
+  xxxs: 0.125rem,
+  xxs: 0.25rem,
+  xs: 0.5rem,
+  s: 0.75rem,
+  m: 1rem,
+  l: 1.5rem,
+  xl: 2rem,
+  xxl: 4rem,
+  xxxl: 6rem,
+  xxxxl: 10rem
 );
 
 $textSizeMap: (
-  xxs: 8px,
-  xs: 12px,
-  s: 16px,
-  m: 24px,
-  l: 32px,
-  xl: 48px,
-  xxl: 72px
+  xxs: 0.5rem,
+  xs: 0.75rem,
+  s: 0.875rem,
+  m: 1rem,
+  l: 1.125rem,
+  xl: 1.25rem,
+  xxl: 1.5rem
 );
 
 $textWeightsMap: (
   x-light: 400,
   light: 400,
+  semi-bold: 600,
   bold: 700,
   x-bold: 900
 );
 
 $colorMap: (
+  brand-01: (
+    base: #00266f
+  ),
+  brand-02: (
+    base: #004ed8
+  ),
+  ui-01: (
+    base: #00266f
+  ),
+  ui-02: (
+    base: #004ed8,
+    light-300: #4d83e4,
+    light-100: #b3caf3,
+    light-050: #e0eafa
+  ),
   red: (
     base: #cc3656,
     xx-light: #f597ac,

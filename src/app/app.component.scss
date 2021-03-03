@@ -18,7 +18,7 @@ h2 {
 .spaceBox {
   display: inline-block;
   @include margin("xxs");
-  @include background-color(blue, "x-light");
+  @include background-color(brand-01);
   &.xxxs {
     @include padding("xxxs");
   }
