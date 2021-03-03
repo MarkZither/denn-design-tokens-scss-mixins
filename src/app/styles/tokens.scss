@@ -1,5 +1,3 @@
-
-
 $spaceMap: (
   xxxs: 4px,
   xxs: 8px,
@@ -10,7 +8,7 @@ $spaceMap: (
   xl: 48px,
   xxl: 72px,
   xxxl: 96px,
-  xxxxl: 120px,
+  xxxxl: 120px
 );
 
 $textSizeMap: (
@@ -20,14 +18,14 @@ $textSizeMap: (
   m: 24px,
   l: 32px,
   xl: 48px,
-  xxl: 72px,
+  xxl: 72px
 );
 
 $textWeightsMap: (
   x-light: 400,
   light: 400,
   bold: 700,
-  x-bold: 900,
+  x-bold: 900
 );
 
 $colorMap: (
@@ -38,7 +36,7 @@ $colorMap: (
     light: #d84f6d,
     dark: #9b344a,
     x-dark: #702031,
-    xx-dark: #571120,
+    xx-dark: #571120
   ),
   green: (
     base: #12721f,
@@ -47,7 +45,7 @@ $colorMap: (
     light: #239232,
     dark: #13521b,
     x-dark: #13441a,
-    xx-dark: #0c250f,
+    xx-dark: #0c250f
   ),
   blue: (
     base: #3460d8,
@@ -56,7 +54,7 @@ $colorMap: (
     light: #2f60e7,
     dark: #204097,
     x-dark: #1f3a86,
-    xx-dark: #183179,
+    xx-dark: #183179
   ),
   gray: (
     base: #cfcfcf,
@@ -65,7 +63,7 @@ $colorMap: (
     light: #e7e5e5,
     dark: #a7a6a6,
     x-dark: #7c7c7c,
-    xx-dark: #474747,
+    xx-dark: #474747
   )
 );
 
@@ -73,5 +71,5 @@ $tokens: (
   color: $colorMap,
   space: $spaceMap,
   textSize: $textSizeMap,
-  textWeight: $textWeightsMap,
+  textWeight: $textWeightsMap
 );
