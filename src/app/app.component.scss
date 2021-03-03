@@ -90,6 +90,9 @@ h2 {
   @include margin-top("s");
   display: inline-block;
   border-radius: 4px;
+    &.brand-01 {
+    @include background-color(brand-01);
+  }
   &.red {
     @include background-color(red);
     &.xx-light {
