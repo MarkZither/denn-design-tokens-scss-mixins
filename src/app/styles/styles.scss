@@ -84,7 +84,6 @@
 /*******************/
 $textSizeTokens: map-get($tokens, 'textSize');
 $textWeightTokens: map-get($tokens, 'textWeight');
-
 @mixin font($size, $type: 'body') {
   @if ($type == 'body') {
     font-size: map-get($textSizeTokens, $size);

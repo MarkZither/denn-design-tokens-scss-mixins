@@ -56,8 +56,22 @@ h2 {
 }
 
 .text {
-  @include color(text-01);
   display: block;
+  &.text-01{
+  @include color(text-01);
+  }
+  &.text-02{
+  @include color(text-02);
+  }
+  &.text-03{
+  @include color(text-03);
+  }
+  &.text-04{
+  @include color(text-04);
+  }
+  &.text-05{
+  @include color(text-05);
+  }
   &.xxs {
     @include font("xxs");
   }
