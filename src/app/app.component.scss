@@ -5,9 +5,9 @@
 }
 
 .section {
-  @include background-color(background-01, 'base');
+  @include background-color(background-01, "base");
   @include padding("m");
-  border: 2px solid getColor(background-01, 'base');
+  border: 2px solid getColor(background-01, "base");
   border-radius: 4px;
 }
 
@@ -131,5 +131,20 @@ h2 {
   }
   &.background-01 {
     @include background-color(background-01);
+  }
+  &.background-02 {
+    @include background-color(background-02);
+  }
+  &.background-03 {
+    @include background-color(background-03);
+  }
+  &.background-04 {
+    @include background-color(background-04);
+  }
+  &.background-05 {
+    @include background-color(background-05);
+  }
+  &.background-06 {
+    @include background-color(background-06);
   }
 }
